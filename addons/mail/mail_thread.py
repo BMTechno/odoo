@@ -42,6 +42,8 @@ from openerp.tools.translate import _
 _logger = logging.getLogger(__name__)
 
 
+mail_header_msgid_re = re.compile('<[^<>]+>')
+
 def decode_header(message, header, separator=' '):
     return separator.join(map(decode, filter(None, message.get_all(header, []))))
 
@@ -297,7 +299,7 @@ class mail_thread(osv.AbstractModel):
 
         if not context.get('mail_notrack'):
             # Perform the tracking
-            tracked_fields = self._get_tracked_fields(cr, uid, values.keys(), context=context)
+            tracked_fields = self._get_tracked_fields(cr, uid, values.keys(), context=track_ctx)
         else:
             tracked_fields = None
         if tracked_fields:
@@ -799,9 +801,13 @@ class mail_thread(osv.AbstractModel):
                 body = tools.append_content_to_html(u'', body, preserve=True)
         else:
             alternative = False
+            mixed = False
+            html = u''
             for part in message.walk():
                 if part.get_content_type() == 'multipart/alternative':
                     alternative = True
+                if part.get_content_type() == 'multipart/mixed':
+                    mixed = True
                 if part.get_content_maintype() == 'multipart':
                     continue  # skip container
                 # part.get_filename returns decoded value if able to decode, coded otherwise.
@@ -828,8 +834,11 @@ class mail_thread(osv.AbstractModel):
                                                                          encoding, errors='replace'), preserve=True)
                 # 3) text/html -> raw
                 elif part.get_content_type() == 'text/html':
+                    # mutlipart/alternative have one text and a html part, keep only the second
+                    # mixed allows several html parts, append html content
+                    append_content = not alternative or (html and mixed)
                     html = tools.ustr(part.get_payload(decode=True), encoding, errors='replace')
-                    if alternative:
+                    if not append_content:
                         body = html
                     else:
                         body = tools.append_content_to_html(body, html, plaintext=False)
@@ -916,13 +925,13 @@ class mail_thread(osv.AbstractModel):
             msg_dict['date'] = stored_date.strftime(tools.DEFAULT_SERVER_DATETIME_FORMAT)
 
         if message.get('In-Reply-To'):
-            parent_ids = self.pool.get('mail.message').search(cr, uid, [('message_id', '=', decode(message['In-Reply-To']))])
+            parent_ids = self.pool.get('mail.message').search(cr, uid, [('message_id', '=', decode(message['In-Reply-To'].strip()))])
             if parent_ids:
                 msg_dict['parent_id'] = parent_ids[0]
 
         if message.get('References') and 'parent_id' not in msg_dict:
-            parent_ids = self.pool.get('mail.message').search(cr, uid, [('message_id', 'in',
-                                                                         [x.strip() for x in decode(message['References']).split()])])
+            msg_list =  mail_header_msgid_re.findall(decode(message['References']))
+            parent_ids = self.pool.get('mail.message').search(cr, uid, [('message_id', 'in', [x.strip() for x in msg_list])])
             if parent_ids:
                 msg_dict['parent_id'] = parent_ids[0]
 
