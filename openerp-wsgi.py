@@ -35,7 +35,7 @@ conf['db_user'] = 'v7'
 conf['db_port'] = 5432
 conf['db_password'] = 't3r4d4t4'
 conf['dbfilter']="^%d.*"
-conf['admin_passwd']="t3r4d4t4"
+conf['admin_passwd']="t3r4d4t4123"
 
 #----------------------------------------------------------
 # Generic WSGI handlers application
@@ -48,7 +48,7 @@ application = openerp.service.wsgi_server.application
 # Standard OpenERP XML-RPC port is 8069
 bind = '0.0.0.0:8778'
 pidfile = '.gunicorn.pid'
-workers = 5
+workers = 4
 timeout = 240
 max_requests = 2000
 
