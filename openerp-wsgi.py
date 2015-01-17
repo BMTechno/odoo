@@ -36,6 +36,8 @@ conf['db_port'] = 5432
 conf['db_password'] = 't3r4d4t4'
 conf['dbfilter']="^%d.*"
 conf['admin_passwd']="t3r4d4t4123"
+conf['training_scortes_passwd']="Kin65erYd9"
+conf['training_passwd']="cubicerp"
 
 #----------------------------------------------------------
 # Generic WSGI handlers application
