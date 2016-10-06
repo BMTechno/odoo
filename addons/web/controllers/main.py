@@ -864,8 +864,14 @@ class Session(openerpweb.Controller):
             REMOTE_ADDR=wsgienv['REMOTE_ADDR'],
         )
         req.session.authenticate(db, login, password, env)
-
-        return self.session_info(req)
+        new_context = {}
+        if req.session._uid and req.session._uid == -1:
+            new_context['error_message'] = _("Your password is expired, you need review your email for instructions or contact to your system administrator.")
+            req.session._uid = False
+        res = self.session_info(req)
+        if new_context:
+            res.update(new_context)
+        return res
 
     @openerpweb.jsonrequest
     def change_password (self,req,fields):

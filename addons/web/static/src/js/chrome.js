@@ -738,7 +738,11 @@ instance.web.Login =  instance.web.Widget.extend({
             self.trigger('login_successful');
         }, function () {
             self.$(".oe_login_pane").fadeIn("fast", function() {
-                self.show_error(_t("Invalid username or password"));
+                if (self.session.error_message){
+                    self.show_error(self.session.error_message);
+                } else {
+                    self.show_error(_t("Invalid username or password"));
+                }
             });
         });
     },

@@ -115,7 +115,7 @@ class OpenERPSession(object):
         uid = self.proxy('common').authenticate(db, login, password, env)
         self.bind(db, uid, login, password)
 
-        if uid: self.get_context()
+        if uid and uid>0: self.get_context()
         return uid
 
     def assert_valid(self, force=False):
