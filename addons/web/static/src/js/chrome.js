@@ -739,6 +739,8 @@ instance.web.Login =  instance.web.Widget.extend({
         }, function () {
             self.$(".oe_login_pane").fadeIn("fast", function() {
                 if (self.session.error_message){
+                    self.set('login_mode', 'pass_reset');
+                    self.$("form input[name=password]").val("");
                     self.show_error(self.session.error_message);
                 } else {
                     self.show_error(_t("Invalid username or password"));
