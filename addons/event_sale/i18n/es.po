@@ -31,12 +31,12 @@ msgstr "Insignia"
 #. module: event_sale
 #: view:event.event:event_sale.view_event_form
 msgid "Badge (Back)"
-msgstr "nsignia (atrás)"
+msgstr "Insignia (atrás)"
 
 #. module: event_sale
 #: view:event.event:event_sale.view_event_form
 msgid "Badge (Inner Left)"
-msgstr "nsignia (atrás)"
+msgstr "Insignia (atrás)"
 
 #. module: event_sale
 #: view:event.event:event_sale.view_event_form
