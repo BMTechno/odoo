@@ -104,4 +104,4 @@ msgstr "Sitio web"
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
 msgid "left"
-msgstr "left"
+msgstr "Izquierda"
