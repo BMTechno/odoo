@@ -35,7 +35,7 @@ msgstr "Orden de fabricación"
 #. module: sale_mrp
 #: field:sale.order.line,property_ids:0
 msgid "Properties"
-msgstr "Propriedades"
+msgstr "Propiedades"
 
 #. module: sale_mrp
 #: field:mrp.production,sale_name:0
