@@ -2207,7 +2207,7 @@ msgstr "Estado"
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_move
 msgid "Stock Move"
-msgstr "Moviemiento de stock"
+msgstr "Movimiento de stock"
 
 #. module: purchase
 #: view:purchase.order.line:purchase.purchase_order_line_form2
