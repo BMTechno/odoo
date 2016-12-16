@@ -3369,22 +3369,22 @@ msgstr ""
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_09
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_70
 msgid "Settlement of securities"
-msgstr "Settlement of securities"
+msgstr "Liquidación de valores"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_04_01
 msgid "Debit customer who is loading"
-msgstr "Debit customer who is loading"
+msgstr "Cliente de débito que está cargando"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_047
 msgid "Charges extension bill"
-msgstr "Charges extension bill"
+msgstr "Cargos de la cuenta de extensión"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_18
 msgid "Trade information"
-msgstr "Trade information"
+msgstr "Información comercial"
 
 #. module: l10n_be_coda
 #: field:account.coda.trans.code,comment:0
@@ -3397,33 +3397,33 @@ msgid ""
 "Confirmation fee | Additional confirmation fee | Commitment fee | Flat fee | "
 "Confirmation reservation commission | Additional reservation commission"
 msgstr ""
-"Confirmation fee | Additional confirmation fee | Commitment fee | Flat fee | "
-"Confirmation reservation commission | Additional reservation commission"
+"tasa de confirmación | tasa de confirmación adicional | Comisión de compromiso | Tarifa plana|"
+"Comisión de reserva de confirmación | Comisión de reserva adicional"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_027
 msgid "Charges for unpaid bills"
-msgstr "Charges for unpaid bills"
+msgstr "Los cargos por facturas impagadas"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_204
 msgid "Amendment fee"
-msgstr "Amendment fee"
+msgstr "Cargo de enmienda"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_01_11
 msgid "Your semi-standing order – payment to employees"
-msgstr "Your semi-standing order – payment to employees"
+msgstr "Su orden semi-permanente - el pago a los empleados"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_11_66
 msgid "For professionals such as insurances and stockbrokers"
-msgstr "For professionals such as insurances and stockbrokers"
+msgstr "Para los profesionales, tales como los seguros y los corredores de bolsa"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_13_11
 msgid "Your repayment mortgage loan"
-msgstr "Your repayment mortgage loan"
+msgstr "Su préstamo de hipoteca,"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_00_37
@@ -3436,17 +3436,17 @@ msgstr "Your repayment mortgage loan"
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_35_37
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_35
 msgid "Costs"
-msgstr "Costes"
+msgstr "Costos"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_050
 msgid "Capital term investment"
-msgstr "Capital term investment"
+msgstr "Inversión a largo plazo"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_03_05
 msgid "Payment of holiday pay, etc."
-msgstr "Payment of holiday pay, etc."
+msgstr "Pago de vacaciones, etc."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_80_25
@@ -3454,14 +3454,14 @@ msgid ""
 "Commission for the renting of boxes put at the disposal for the "
 "correspondence"
 msgstr ""
-"Commission for the renting of boxes put at the disposal for the "
-"correspondence"
+"Comisión para el alquiler de cajas puestas a disposición de la "
+"correspondencia"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_008
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_29
 msgid "Information charges"
-msgstr "Information charges"
+msgstr "Cargos de información"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_01_03
@@ -3469,8 +3469,8 @@ msgid ""
 "Credit transfer for which the order has been given once and which is carried "
 "out again at regular intervals without any change."
 msgstr ""
-"Credit transfer for which the order has been given once and which is carried "
-"out again at regular intervals without any change."
+"Transferencia de crédito para la que se ha dado la orden una vez y que se lleva a cabo "
+"de nuevo a intervalos regulares sin ningún cambio."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.type,description:l10n_be_coda.actt_0
@@ -3478,23 +3478,23 @@ msgid ""
 "Simple amount without detailed data; e.g. : an individual credit transfer "
 "(free of charges)."
 msgstr ""
-"Simple amount without detailed data; e.g. : an individual credit transfer "
-"(free of charges)."
+"Cantidad simple sin datos detallados; p.ej. : Una transferencia de crédito individual "
+"(libre de cargos)."
 
 #. module: l10n_be_coda
 #: help:coda.bank.account,find_partner:0
 msgid "Partner lookup via Bank Account Number."
-msgstr "Partner lookup via Bank Account Number."
+msgstr "Búsqueda de socios a través del número de cuenta bancaria."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_403
 msgid "Minimum discount rate"
-msgstr "Minimum discount rate"
+msgstr "Tasa mínima de descuento"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_47_56
 msgid "Remittance of guaranteed foreign supplier's bill"
-msgstr "Remittance of guaranteed foreign supplier's bill"
+msgstr "Envío de la factura extranjera garantizada del proveedor"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_02
@@ -3504,30 +3504,30 @@ msgstr "Licitaciones"
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_43_07
 msgid "Unpaid foreign cheque"
-msgstr "Unpaid foreign cheque"
+msgstr "Cheque extranjero no pagado"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_11_03
 msgid ""
 "Bonds, shares, tap issues of CDs, with or without payment of interest, etc."
 msgstr ""
-"Bonds, shares, tap issues of CDs, with or without payment of interest, etc."
+"Bonos, acciones, emisión de CD, con o sin pago de intereses, etc."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_09_66
 msgid "Repurchase of petrol coupons"
-msgstr "Repurchase of petrol coupons"
+msgstr "Recompra de cupones de gasolina"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_058
 msgid "Capital premium"
-msgstr "Capital premium"
+msgstr "Prima de capital"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_15
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_62
 msgid "Interim interest on subscription"
-msgstr "Interim interest on subscription"
+msgstr "Intereses por suscripción"
 
 #. module: l10n_be_coda
 #: field:coda.bank.statement.line,counterparty_currency:0
@@ -3537,12 +3537,12 @@ msgstr "Moneda de la contrapartida"
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_202
 msgid "Advising commission | Additional advising commission"
-msgstr "Advising commission | Additional advising commission"
+msgstr "Asesorar a la Comisión | comisión de asesoramiento adicional"
 
 #. module: l10n_be_coda
 #: field:coda.bank.account,find_partner:0
 msgid "Lookup Partner"
-msgstr "Lookup Partner"
+msgstr "Socio de búsqueda"
 
 #. module: l10n_be_coda
 #: view:coda.bank.statement:0
@@ -3556,12 +3556,12 @@ msgstr "Id global"
 #: model:ir.actions.act_window,name:l10n_be_coda.action_coda_bank_statement_line
 #: model:ir.ui.menu,name:l10n_be_coda.coda_bank_statement_line
 msgid "CODA Statement Lines"
-msgstr "CODA Statement Lines"
+msgstr "Líneas de declaración CODA"
 
 #. module: l10n_be_coda
 #: field:coda.bank.statement.line,globalisation_amount:0
 msgid "Globalisation Amount"
-msgstr "Globalisation Amount"
+msgstr "Monto de globalización"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_01_13
@@ -3569,8 +3569,8 @@ msgid ""
 "Transfer from one account to another account of the same customer at the "
 "bank's or the customer's initiative (intracompany)."
 msgstr ""
-"Transfer from one account to another account of the same customer at the "
-"bank's or the customer's initiative (intracompany)."
+"Transferencia de una cuenta a otra cuenta del mismo cliente en el "
+"de la iniciativa del cliente de un banco (Intracompañía)."
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_coda_import.py:891
@@ -3591,40 +3591,40 @@ msgstr "Usuario"
 #. module: l10n_be_coda
 #: model:ir.model,name:l10n_be_coda.model_account_coda_trans_code
 msgid "CODA transaction code"
-msgstr "CODA transaction code"
+msgstr "Código de transacción CODA"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_05_52
 msgid "Credit under usual reserve"
-msgstr "Credit under usual reserve"
+msgstr "Crédito bajo reserva de lo habitual"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_04_50
 msgid "Except Proton"
-msgstr "Except Proton"
+msgstr "Excepto Proton"
 
 #. module: l10n_be_coda
 #: model:account.coda.comm.type,description:l10n_be_coda.acct_011
 msgid "Information pertaining to coupons"
-msgstr "Information pertaining to coupons"
+msgstr "La información relativa a los cupones"
 
 #. module: l10n_be_coda
 #: model:account.coda.comm.type,description:l10n_be_coda.acct_122
 msgid "Bills - calculation of interest"
-msgstr "Bills - calculation of interest"
+msgstr "Facturas - cálculo de los intereses"
 
 #. module: l10n_be_coda
 #: view:account.coda.trans.code:0
 #: model:ir.actions.act_window,name:l10n_be_coda.action_account_coda_trans_code_form
 #: model:ir.ui.menu,name:l10n_be_coda.menu_action_account_coda_trans_code_form
 msgid "CODA Transaction Codes"
-msgstr "CODA Transaction Codes"
+msgstr "Códigos de transacción CODA"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_053
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_43
 msgid "Printing of forms"
-msgstr "Printing of forms"
+msgstr "La impresión de los formularios"
 
 #. module: l10n_be_coda
 #: help:coda.bank.account,state:0
@@ -3632,18 +3632,18 @@ msgid ""
 "No Bank Statements will be generated for CODA Bank Statements from Bank "
 "Accounts of type 'Info'."
 msgstr ""
-"No Bank Statements will be generated for CODA Bank Statements from Bank "
-"Accounts of type 'Info'."
+"No se generarán estados bancarios para los estados de cuenta del Banco CODA "
+"Cuentas de tipo 'Info'."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_49_03
 msgid "ATM withdrawal"
-msgstr "ATM withdrawal"
+msgstr "Retiro en cajero automático"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_012
 msgid "Exchange commission"
-msgstr "Exchange commission"
+msgstr "Comisión de Cambio"
 
 #. module: l10n_be_coda
 #: view:coda.bank.account:0
@@ -3651,12 +3651,12 @@ msgstr "Exchange commission"
 #: model:ir.model,name:l10n_be_coda.model_coda_bank_account
 #: model:ir.ui.menu,name:l10n_be_coda.menu_action_coda_bank_account_form
 msgid "CODA Bank Account Configuration"
-msgstr "CODA Bank Account Configuration"
+msgstr "Configuración de la cuenta bancaria CODA"
 
 #. module: l10n_be_coda
 #: field:account.bank.statement.line.global,coda_statement_line_ids:0
 msgid "CODA Bank Statement Lines"
-msgstr "CODA Bank Statement Lines"
+msgstr "Líneas del estado de cuenta de CODA"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_coda_import.py:725
@@ -3671,19 +3671,19 @@ msgid ""
 "Structured Communication Type: %s - %s\n"
 "Communication: %s"
 msgstr ""
-"Partner name: %s \n"
-"Partner Account Number: %s\n"
-"Transaction Type: %s - %s\n"
-"Transaction Family: %s - %s\n"
-"Transaction Code: %s - %s\n"
-"Transaction Category: %s - %s\n"
-"Structured Communication Type: %s - %s\n"
-"Communication: %s"
+"Nombre del socio: %s \n"
+"Número de cuenta del socio: %s\n"
+"tipo de transacción: %s - %s\n"
+"Familia de transacciones: %s - %s\n"
+"Código de transacción: %s - %s\n"
+"Categoría de transacción: %s - %s\n"
+"Tipo de comunicación estructurada: %s - %s\n"
+"Communicación: %s"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_04_04
 msgid "Cash withdrawal from an ATM"
-msgstr "Cash withdrawal from an ATM"
+msgstr "Retiro de efectivo de un cajero automático"
 
 #. module: l10n_be_coda
 #: field:coda.bank.statement,balance_end:0
@@ -3698,37 +3698,37 @@ msgstr "Associated CODA Bank Statement"
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_13_37
 msgid "Credit-related costs"
-msgstr "Credit-related costs"
+msgstr "los costss relacionados con el crédito"
 
 #. module: l10n_be_coda
 #: model:ir.ui.menu,name:l10n_be_coda.menu_manage_coda
 msgid "CODA Configuration"
-msgstr "CODA Configuration"
+msgstr "Configuración de CODA"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_07_39
 msgid "Debit of the drawer after credit under usual reserve or discount"
-msgstr "Debit of the drawer after credit under usual reserve or discount"
+msgstr "Débito del cajón después de crédito en reserva o descuento habitual"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_41_66
 msgid "Financial centralisation (credit)"
-msgstr "Financial centralisation (credit)"
+msgstr "Centralización financiera (crédito)"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_07_08
 msgid "Payment in advance"
-msgstr "Payment in advance"
+msgstr "El pago por adelantado"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_03_37
 msgid "Cheque-related costs"
-msgstr "Cheque-related costs"
+msgstr "Costos relacionados con el cheque"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_19
 msgid "Special charge for safe custody"
-msgstr "Special charge for safe custody"
+msgstr "Cargo especial por custodia"
 
 #. module: l10n_be_coda
 #: sql_constraint:coda.bank.account:0
@@ -3736,18 +3736,18 @@ msgid ""
 "The combination of Bank Account, Account Description and Currency must be "
 "unique !"
 msgstr ""
-"The combination of Bank Account, Account Description and Currency must be "
-"unique !"
+"La combinación de Cuenta Bancaria, Cuenta Descripción y Moneda debe ser "
+"Único!"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_03_01
 msgid "Payment of your cheque"
-msgstr "Payment of your cheque"
+msgstr "El pago de su cheque"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_43_07
 msgid "Foreign cheque remitted for collection that returns unpaid"
-msgstr "Foreign cheque remitted for collection that returns unpaid"
+msgstr "Cheque internacional remitido para la colección que devuelve sin pagar"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_80_07
@@ -3755,8 +3755,8 @@ msgid ""
 "- insurance costs of account holders against fatal accidents - passing-on of "
 "several insurance costs"
 msgstr ""
-"- insurance costs of account holders against fatal accidents - passing-on of "
-"several insurance costs"
+"- Seguros de los titulares de cuentas contra accidentes mortales - transmisión de "
+"varios costos de seguro"
 
 #. module: l10n_be_coda
 #: help:coda.bank.account,awaiting_account:0
@@ -3764,41 +3764,41 @@ msgid ""
 "Set here the default account that will be used if the partner cannot be "
 "unambiguously identified."
 msgstr ""
-"Set here the default account that will be used if the partner cannot be "
-"unambiguously identified."
+"Establezca aquí la cuenta predeterminada que se utilizará si el socio no puede "
+"Inequívocamente identificado."
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/l10n_be_coda.py:284
 #, python-format
-msgid "No CODA Bank Statement found for this Bank Statement!"
-msgstr "No CODA Bank Statement found for this Bank Statement!"
+msgid "¡Ningún estado de cuenta de CODA encontrado para esta declaración bancaria!"
+msgstr "¡Ningún estado de cuenta de CODA encontrado para esta declaración bancaria!"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_03_07
 msgid "Definitely unpaid cheque"
-msgstr "Definitely unpaid cheque"
+msgstr "definitivamente cheque no pagado"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_04_08
 msgid "Payment by means of a payment card outside the Eurozone"
-msgstr "Payment by means of a payment card outside the Eurozone"
+msgstr "El pago por medio de una tarjeta de pago fuera de la zona euro"
 
 #. module: l10n_be_coda
 #: model:account.coda.comm.type,description:l10n_be_coda.acct_106
 msgid ""
 "Method of calculation (VAT, withholding tax on income, commission, etc.)"
 msgstr ""
-"Method of calculation (VAT, withholding tax on income, commission, etc.)"
+"Método de cálculo (IVA, retención de impuestos sobre la renta, comisión, etc.)"
 
 #. module: l10n_be_coda
 #: model:ir.model,name:l10n_be_coda.model_account_coda_comm_type
 msgid "CODA structured communication type"
-msgstr "CODA structured communication type"
+msgstr "Tipo de comunicación estructurada CODA"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_03_64
 msgid "Reversal of settlement of credit card"
-msgstr "Reversal of settlement of credit card"
+msgstr "Reversión de liquidación de tarjeta de crédito"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_58
@@ -3806,8 +3806,8 @@ msgid ""
 "Repayable securities from a deposit or delivered at the counter - credit "
 "under usual reserve"
 msgstr ""
-"Repayable securities from a deposit or delivered at the counter - credit "
-"under usual reserve"
+"valores reembolsables de un depósito o entregados en el mostrador - crédito "
+"Bajo reserva habitual"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.type,description:l10n_be_coda.actt_5
@@ -3816,9 +3816,9 @@ msgid ""
 "ask for detailed data to be included into his file after the overall record "
 "(type 1)."
 msgstr ""
-"Detail of 1. Standard procedure is no detailing. However, the customer may "
-"ask for detailed data to be included into his file after the overall record "
-"(type 1)."
+"Detalle de 1. El procedimiento estándar no es detallado. Sin embargo, el cliente puede "
+"Pedir que se incluyan datos detallados en su archivo después de que el registro general"
+"(tipo 1)."
 
 #. module: l10n_be_coda
 #: field:account.coda.comm.type,description:0
@@ -3831,37 +3831,37 @@ msgstr "Descripción"
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_07_01
 msgid "Payment commercial paper"
-msgstr "Payment commercial paper"
+msgstr "Pago de papel comercial"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_425
 msgid "Foreign broker's commission"
-msgstr "Foreign broker's commission"
+msgstr "Comisión de corredor extranjero"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_41_37
 msgid "Costs relating to outgoing foreign transfers and non-SEPA transfers"
-msgstr "Costs relating to outgoing foreign transfers and non-SEPA transfers"
+msgstr "Costes relativos a las transferencias extranjeras salientes ya las transferencias fuera de la SEPA"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_03_17
 msgid "Your certified cheque"
-msgstr "Your certified cheque"
+msgstr "Su comprobante certificado"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_400
 msgid "Acceptance fee"
-msgstr "Acceptance fee"
+msgstr "Cuota de aceptación"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_01_52
 msgid "Payment by a third person"
-msgstr "Payment by a third person"
+msgstr "Pago por una tercera persona"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_11_68
 msgid "Compensation for missing coupon"
-msgstr "Compensation for missing coupon"
+msgstr "Compensación por falta de cupón"
 
 #. module: l10n_be_coda
 #: view:coda.bank.statement.line:0
@@ -3871,13 +3871,13 @@ msgstr "Transacciones de débito"
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_33
 msgid "Miscellaneous fees and commissions"
-msgstr "Miscellaneous fees and commissions"
+msgstr "Honorarios y comisiones diversos"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_01_03
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_41_03
 msgid "Standing order"
-msgstr "Standing order"
+msgstr "Orden permanente"
 
 #. module: l10n_be_coda
 #: selection:coda.bank.statement.line,type:0
@@ -3896,11 +3896,11 @@ msgid ""
 "Statement."
 msgstr ""
 "\n"
-"    Bank Statement '%s' line '%s':\n"
-"        The bank account '%s' is not defined for the partner '%s'.\n"
-"        Please correct the configuration and perform the import again or "
-"otherwise change the corresponding entry manually in the generated Bank "
-"Statement."
+"    Extracto de cuenta '%s' linea '%s':\n"
+"        La cuenta bancaria '% s' no está definida para el socio '%s'.\n"
+"        Por favor, corrija la configuración y realizar la importación de nuevo o "
+"de lo contrario cambie la entrada correspondiente manualmente en el banco generado "
+"Declaración."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_01_49
@@ -3946,7 +3946,7 @@ msgstr "Cuenta bancaria"
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_13_56
 msgid "Interest or capital subsidy"
-msgstr "Interest or capital subsidy"
+msgstr "Intereses o subsidios de capital"
 
 #. module: l10n_be_coda
 #: view:coda.bank.statement.line:0
@@ -3956,12 +3956,12 @@ msgstr "Cuenta fin."
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_01_62
 msgid "Unpaid postal order"
-msgstr "Unpaid postal order"
+msgstr "Orden postal sin pagar"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_428
 msgid "Interest accrued"
-msgstr "Interest accrued"
+msgstr "Intereses acumulados"
 
 #. module: l10n_be_coda
 #: field:account.coda.comm.type,code:0
@@ -3971,19 +3971,19 @@ msgstr "Tipo de comunicación estructurada"
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_401
 msgid "Visa charges"
-msgstr "Visa charges"
+msgstr "Cargos por visado"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_210
 msgid "Commitment fee"
-msgstr "Commitment fee"
+msgstr "Comisión de compromiso"
 
 #. module: l10n_be_coda
 #: view:account.coda.trans.category:0
 #: model:ir.actions.act_window,name:l10n_be_coda.action_account_coda_trans_category_form
 #: model:ir.ui.menu,name:l10n_be_coda.menu_action_account_coda_trans_category_form
 msgid "CODA Transaction Categories"
-msgstr "CODA Transaction Categories"
+msgstr "Categorías de transacciones CODA"
 
 #. module: l10n_be_coda
 #: field:coda.bank.statement.line,sequence:0
@@ -3999,24 +3999,24 @@ msgstr "Resultados :"
 #: field:coda.bank.statement,coda_id:0
 #: model:ir.actions.act_window,name:l10n_be_coda.act_coda_bank_statement_goto_account_coda
 msgid "CODA Data File"
-msgstr "CODA Data File"
+msgstr "Archivo de datos de CODA"
 
 #. module: l10n_be_coda
 #: view:coda.bank.statement.line:0
 msgid "CODA Statement Line"
-msgstr "CODA Statement Line"
+msgstr "Línea de declaración de CODA"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_073
 msgid "Costs of ATM abroad"
-msgstr "Costs of ATM abroad"
+msgstr "Costos de ATM en el extranjero"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_430
 msgid "Recovery of foreign tax"
-msgstr "Recovery of foreign tax"
+msgstr "Recuperación del impuesto extranjero"
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_80_01
 msgid "Guarantee card charges"
-msgstr "Guarantee card charges"
+msgstr "Cargos por tarjeta de garantía"
