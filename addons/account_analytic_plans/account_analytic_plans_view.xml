@@ -27,7 +27,7 @@
                <attribute name="invisible">1</attribute>
            </xpath>
 
-           <xpath expr="//field[@name='line_id']/form//field[@name='analytic_account_id']" position="replace">
+           <xpath expr="//field[@name='line_id']/form//field[@name='analytic_account_id']" position="before">
                <field name="analytics_id" context="{'journal_id':parent.journal_id}" groups="analytic.group_analytic_accounting"/>
            </xpath>
            <xpath expr="//field[@name='line_id']/form//field[@name='analytic_account_id']" position="attributes">
