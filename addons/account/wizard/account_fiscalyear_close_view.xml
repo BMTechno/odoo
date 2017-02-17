@@ -15,6 +15,7 @@
                         <field name="journal_id"/>
                         <field name="period_id" domain ="[('fiscalyear_id','=',fy2_id),('special','=', True)]" />
                         <field name="report_name"/>
+                        <field name="account_id"/>
                     </group>
                     <footer>
                         <button string="Create" name="data_save" type="object" class="oe_highlight"/>

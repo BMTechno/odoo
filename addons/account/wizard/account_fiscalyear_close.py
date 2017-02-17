@@ -36,6 +36,7 @@ class account_fiscalyear_close(osv.osv_memory):
        'journal_id': fields.many2one('account.journal', 'Opening Entries Journal', domain="[('type','=','situation')]", required=True, help='The best practice here is to use a journal dedicated to contain the opening entries of all fiscal years. Note that you should define it with default debit/credit accounts, of type \'situation\' and with a centralized counterpart.'),
        'period_id': fields.many2one('account.period', 'Opening Entries Period', required=True),
        'report_name': fields.char('Name of new entries', required=True, help="Give name of the new entries"),
+       'account_id': fields.many2one('account.account', string="Chart Account", domain=[('parent_id','=',False)]),
     }
     _defaults = {
         'report_name': lambda self, cr, uid, context: _('End of Fiscal Year Entry'),
@@ -105,6 +106,10 @@ class account_fiscalyear_close(osv.osv_memory):
             raise osv.except_osv(_('User Error!'),
                     _('The journal must have centralized counterpart without the Skipping draft state option checked.'))
 
+        chart_account = ''
+        if data[0].account_id:
+            chart_account = ' AND chart_account_id = %s'%data[0].account_id.id
+
         #delete existing move and move lines if any
         move_ids = obj_acc_move.search(cr, uid, [
             ('journal_id', '=', new_journal.id), ('period_id', '=', period.id)])
@@ -137,7 +142,7 @@ class account_fiscalyear_close(osv.osv_memory):
             WHERE a.active
               AND a.type not in ('view', 'consolidation')
               AND a.company_id = %s
-              AND t.close_method = %s''', (company_id, 'unreconciled', ))
+              AND t.close_method = %s''' + chart_account, (company_id, 'unreconciled', ))
         account_ids = map(lambda x: x[0], cr.fetchall())
         if account_ids:
             cr.execute('''
@@ -188,7 +193,7 @@ class account_fiscalyear_close(osv.osv_memory):
             WHERE a.active
               AND a.type not in ('view', 'consolidation')
               AND a.company_id = %s
-              AND t.close_method = %s''', (company_id, 'detail', ))
+              AND t.close_method = %s''' + chart_account, (company_id, 'detail', ))
         account_ids = map(lambda x: x[0], cr.fetchall())
 
         if account_ids:
@@ -217,7 +222,7 @@ class account_fiscalyear_close(osv.osv_memory):
             WHERE a.active
               AND a.type not in ('view', 'consolidation')
               AND a.company_id = %s
-              AND t.close_method = %s''', (company_id, 'balance', ))
+              AND t.close_method = %s''' + chart_account, (company_id, 'balance', ))
         account_ids = map(lambda x: x[0], cr.fetchall())
 
         query_1st_part = """

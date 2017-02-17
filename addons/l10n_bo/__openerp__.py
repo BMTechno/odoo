@@ -34,8 +34,8 @@ Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes
 			"account_chart",
 			],
 	"data":[
-        "account_tax_code.xml",
         "l10n_bo_chart.xml",
+        "account_tax_code.xml",
         "account_tax.xml",
         "l10n_bo_wizard.xml",			
 			],
